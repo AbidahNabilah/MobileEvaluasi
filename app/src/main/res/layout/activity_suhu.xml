@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".Suhu">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Konversi Suhu"
+        android:textColor="@android:color/holo_blue_dark"
+        android:padding="16dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
+        />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Input Nilia Celcius"/>
+
+
+    <EditText
+        android:id="@+id/edt_nilaisuhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Celcius.."
+        android:lines="5"/>
+    <TextView
+        android:id="@+id/hasilsuhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/fahrenheit"
+        android:hint="Hasil Suhu Fahrenheit"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/hasilsuhufa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/reamur"
+        android:hint="Hasil Suhu Reamur"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/hasilsuhuce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+
+        android:text="@string/kelvin"
+        android:hint="Hasil Suhu Kelvin"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btn_hitungsuhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Suhu"
+        />
+
+
+
+
+
+</LinearLayout>

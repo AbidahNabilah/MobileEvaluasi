@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MobileEvaluasi</string>
+    <string name="konversi_rupiah">Konversi Rupiah</string>
+    <string name="konversi_suhu">konversi suhu</string>
+    <string name="celcius">Celcius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="hasil">hasil</string>
+    <string name="reamur">reamur</string>
+</resources>
